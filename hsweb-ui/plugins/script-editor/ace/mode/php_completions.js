@@ -9026,7 +9026,7 @@ var functionMap = {
     ],
     "xmlwriter_end_dtd_entity": [
         "bool xmlwriter_end_dtd_entity(resource xmlwriter)",
-        "End current DTD Entity - returns FALSE on error"
+        "End current DTD entity - returns FALSE on error"
     ],
     "xmlwriter_end_element": [
         "bool xmlwriter_end_element(resource xmlwriter)",
@@ -9098,7 +9098,7 @@ var functionMap = {
     ],
     "xmlwriter_start_dtd_entity": [
         "bool xmlwriter_start_dtd_entity(resource xmlwriter, string name, bool isparam)",
-        "Create start DTD Entity - returns FALSE on error"
+        "Create start DTD entity - returns FALSE on error"
     ],
     "xmlwriter_start_element": [
         "bool xmlwriter_start_element(resource xmlwriter, string name)",
@@ -9146,7 +9146,7 @@ var functionMap = {
     ],
     "xmlwriter_write_dtd_entity": [
         "bool xmlwriter_write_dtd_entity(resource xmlwriter, string name, string content [, int pe [, string pubid [, string sysid [, string ndataid]]]])",
-        "Write full DTD Entity tag - returns FALSE on error"
+        "Write full DTD entity tag - returns FALSE on error"
     ],
     "xmlwriter_write_element": [
         "bool xmlwriter_write_element(resource xmlwriter, string name[, string content])",

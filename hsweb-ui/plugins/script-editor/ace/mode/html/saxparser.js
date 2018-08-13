@@ -5560,7 +5560,7 @@ module.exports={
 	"incorrect-cr-newline-entity":
 		"Incorrect CR newline entity, replaced with LF.",
 	"illegal-windows-1252-entity":
-		"Entity used with illegal number (windows-1252 reference).",
+		"entity used with illegal number (windows-1252 reference).",
 	"cant-convert-numeric-entity":
 		"Numeric entity couldn't be converted to character (codepoint U+{charAsInt}).",
 	"invalid-numeric-entity-replaced":
