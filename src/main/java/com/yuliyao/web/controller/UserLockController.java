@@ -1,4 +1,4 @@
-package org.hswebframework.web.demo.controller;
+package com.yuliyao.web.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

@@ -1,4 +1,4 @@
-package org.hswebframework.web.demo;
+package com.yuliyao.web;
 
 import io.github.swagger2markup.GroupBy;
 import io.github.swagger2markup.Language;

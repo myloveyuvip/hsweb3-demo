@@ -1,4 +1,4 @@
-package org.hswebframework.web.demo.controller;
+package com.yuliyao.web.controller;
 
 import org.hswebframework.web.Maps;
 import org.hswebframework.web.authorization.annotation.Authorize;

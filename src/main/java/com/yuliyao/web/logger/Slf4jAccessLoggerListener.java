@@ -1,4 +1,4 @@
-package org.hswebframework.web.demo.logger;
+package com.yuliyao.web.logger;
 
 import com.alibaba.fastjson.JSON;
 import org.hswebframework.web.logging.AccessLoggerInfo;

@@ -1,4 +1,4 @@
-package org.hswebframework.web.demo.entity;
+package com.yuliyao.web.entity;
 
 /**
  * http请求返回的最外层对象

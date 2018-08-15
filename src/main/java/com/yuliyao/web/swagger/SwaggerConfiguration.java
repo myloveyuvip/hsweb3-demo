@@ -1,4 +1,4 @@
-package org.hswebframework.web.demo.swagger;
+package com.yuliyao.web.swagger;
 
 import org.hswebframework.web.authorization.Authentication;
 import org.springframework.context.annotation.Bean;

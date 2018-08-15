@@ -1,7 +1,7 @@
-package org.hswebframework.web.demo.utils;
+package com.yuliyao.web.utils;
 
 
-import org.hswebframework.web.demo.entity.Result;
+import com.yuliyao.web.entity.Result;
 
 /**
  * Created by 廖师兄

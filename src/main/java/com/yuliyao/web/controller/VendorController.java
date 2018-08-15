@@ -1,14 +1,15 @@
-package org.hswebframework.web.demo.controller;
+package com.yuliyao.web.controller;
 
 import lombok.extern.slf4j.Slf4j;
-import org.hswebframework.web.demo.entity.Result;
-import org.hswebframework.web.demo.entity.Vendor;
-import org.hswebframework.web.demo.repository.VendorRepository;
-import org.hswebframework.web.demo.utils.ResultUtil;
+import com.yuliyao.web.entity.Result;
+import com.yuliyao.web.entity.Vendor;
+import com.yuliyao.web.repository.VendorRepository;
+import com.yuliyao.web.utils.ResultUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
@@ -23,7 +24,7 @@ public class VendorController {
     private VendorRepository vendorRepository;
 
     @PostMapping("/vendor")
-    public Result<Vendor> vendorAdd(@Valid Vendor vendor, BindingResult bindingResult) {
+    public Result<Vendor> vendorAdd(@RequestBody @Valid Vendor vendor, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             return ResultUtil.error(1, bindingResult.getFieldError().getDefaultMessage());
         }

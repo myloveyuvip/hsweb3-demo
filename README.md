@@ -14,7 +14,7 @@ http://cdn-blog.jetbrains.org.cn/doc/all.html
 ```
 
 或者导入ide,等待maven依赖下载完后执行: 
-``org.hswebframework.web.demo.Application.main``
+``Application.main``
 
 启动成功后打开: http://localhost:8089 ,帐号:admin 密码:admin
 

@@ -1,4 +1,4 @@
-package org.hswebframework.web.demo;
+package com.yuliyao.web;
 
 import com.spring4all.swagger.EnableSwagger2Doc;
 import org.hswebframework.web.authorization.basic.configuration.EnableAopAuthorize;
@@ -22,8 +22,8 @@ import org.springframework.context.event.EventListener;
 @SpringBootApplication
 @EnableCaching //开启缓存
 @EnableAccessLogger //开启访问日志
-@ComponentScan("org.hswebframework.web.demo")
-@MapperScan(value = "org.hswebframework.web.demo", markerInterface = Dao.class) //扫描mybatis dao
+@ComponentScan("com.yuliyao.web")
+@MapperScan(value = "com.yuliyao.web", markerInterface = Dao.class) //扫描mybatis dao
 @EnableAopAuthorize //启用aop权限控制
 @EnableSwagger2Doc
 @EnableDevTools //开启开发人员工具，生产环境慎用
