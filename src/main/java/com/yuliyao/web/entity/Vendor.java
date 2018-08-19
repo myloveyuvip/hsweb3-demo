@@ -18,7 +18,7 @@ public class Vendor extends SimpleGenericEntity<Long> {
     @Id
     @GeneratedValue
     private Long id;
-    private String  vendorName;
+    private String  VendorName;
     private Integer managerOffice;
     private String  address;
     private Integer isNearSchool;

@@ -7,10 +7,7 @@ import com.yuliyao.web.repository.VendorRepository;
 import com.yuliyao.web.utils.ResultUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.List;
@@ -36,6 +33,12 @@ public class VendorController {
     public Result<Vendor> getVendorAll() {
         List<Vendor> all = vendorRepository.findAll();
         return ResultUtil.success(all);
+    }
+
+    @GetMapping("vendor/{id}")
+    public Result<Vendor> getVendorById(@PathVariable("id") Long id) {
+        Vendor vendor = vendorRepository.findOne(id);
+        return ResultUtil.success(vendor);
     }
 
 }
